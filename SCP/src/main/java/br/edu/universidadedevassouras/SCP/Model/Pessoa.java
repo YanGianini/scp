@@ -33,8 +33,8 @@ public class Pessoa implements Serializable {
     @Lob
     private String foto;
     @Column(nullable = false, unique = true)
-    private String usuario;
+    private String username;
     @Column(nullable = false)
-    private String senha;
+    private String password;
 
 }
